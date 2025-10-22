@@ -1,0 +1,10 @@
+.story_page {
+  position: relative;
+  background-color: #1a1a1a; 
+  min-height: 100vh; 
+  display: flex; 
+  gap: 40px; 
+  justify-content: center;
+  align-items: center; 
+}
+

@@ -1,0 +1,31 @@
+
+.story-message-box > input{
+  height: 40px;
+  width: 300px;
+  border: 1px solid rgba(240, 248, 255, 0.678);
+  border-radius: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: transparent;
+  margin-right: 30px;
+  color: white;
+}
+.story-message-box > input::placeholder{
+  color: white;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.story-message-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    width: 100%;
+
+  svg{
+    color: white;
+    width: 30px;
+    padding-right: 20px;
+    height: 30px;
+  }
+}
